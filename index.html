@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudyFlow - AI-powered study assistant for polytechnic students. Boost productivity, understanding, and scheduling with personalized study plans.">
+    <meta name="keywords" content="study planner, AI assistant, polytechnic, productivity, scheduling">
+    <meta name="author" content="StudyFlow Team">
+    <meta property="og:title" content="StudyFlow - Your AI Study Assistant">
+    <meta property="og:description" content="Personalized study planning powered by AI">
+    <meta property="og:type" content="website">
+    
+    <title>StudyFlow - AI Personalized Study Planner</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%237C3AED'>📚</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">📚</span>
+                <h1 class="brand-name">StudyFlow</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#problem" class="nav-link">Problem</a></li>
+                <li><a href="#solution" class="nav-link">Solution</a></li>
+                <li><a href="#agents" class="nav-link">Features</a></li>
+                <li><a href="#cta" class="nav-link">Get Started</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Master Your Studies with AI</h2>
+                <p class="hero-subtitle">StudyFlow is your personalized AI study assistant designed for polytechnic students. Boost productivity, ace your exams, and understand complex concepts effortlessly.</p>
+                <div class="hero-buttons">
+                    <a href="#cta" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#agents" class="btn btn-secondary">Learn How It Works</a>
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <div class="floating-card card-1">📖 Smart Learning</div>
+                <div class="floating-card card-2">⏰ Intelligent Scheduling</div>
+                <div class="floating-card card-3">🎯 Personalized Plans</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem">
+        <div class="container">
+            <h2 class="section-title">The Problem</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">😫</div>
+                    <h3>Productivity Struggles</h3>
+                    <p>Difficulty managing study time and staying focused on coursework.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📅</div>
+                    <h3>Scheduling Conflicts</h3>
+                    <p>Balancing multiple modules, assignments, and exam dates is overwhelming.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🤔</div>
+                    <h3>Concept Confusion</h3>
+                    <p>Struggling to understand module expectations and complex topics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <h2 class="section-title">How StudyFlow Helps</h2>
+            <p class="section-subtitle">Three intelligent agents working together to transform your study experience</p>
+            
+            <div id="agents" class="agents-grid">
+                <!-- RAG Agent -->
+                <div class="agent-card" data-agent="rag">
+                    <div class="agent-header">
+                        <span class="agent-icon">🔍</span>
+                        <h3>RAG Agent</h3>
+                    </div>
+                    <p class="agent-description">Retrieves your module guides, exam formats, and timetables in seconds</p>
+                    <ul class="agent-features">
+                        <li>✓ Module documentation retrieval</li>
+                        <li>✓ Exam format analysis</li>
+                        <li>✓ Timetable integration</li>
+                        <li>✓ Resource recommendations</li>
+                    </ul>
+                    <button class="btn-learn-more" aria-label="Learn more about RAG Agent">View Details</button>
+                </div>
+
+                <!-- Planner Agent -->
+                <div class="agent-card" data-agent="planner">
+                    <div class="agent-header">
+                        <span class="agent-icon">📊</span>
+                        <h3>Planner Agent</h3>
+                    </div>
+                    <p class="agent-description">Generates personalized study schedules tailored to your goals</p>
+                    <ul class="agent-features">
+                        <li>✓ AI-powered scheduling</li>
+                        <li>✓ Workload distribution</li>
+                        <li>✓ Deadline prioritization</li>
+                        <li>✓ Adaptive adjustments</li>
+                    </ul>
+                    <button class="btn-learn-more" aria-label="Learn more about Planner Agent">View Details</button>
+                </div>
+
+                <!-- Explainer Agent -->
+                <div class="agent-card" data-agent="explainer">
+                    <div class="agent-header">
+                        <span class="agent-icon">💡</span>
+                        <h3>Explainer Agent</h3>
+                    </div>
+                    <p class="agent-description">Breaks down complex concepts into easy-to-understand summaries</p>
+                    <ul class="agent-features">
+                        <li>✓ Concept simplification</li>
+                        <li>✓ Study tips & tricks</li>
+                        <li>✓ Real-world examples</li>
+                        <li>✓ Quick reference guides</li>
+                    </ul>
+                    <button class="btn-learn-more" aria-label="Learn more about Explainer Agent">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Premium Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <span class="feature-icon">🔔</span>
+                    <h4>Smart Reminders</h4>
+                    <p>Automated reminders via n8n integration</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🎙️</span>
+                    <h4>Voice Motivation</h4>
+                    <p>AI-generated motivational messages</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📱</span>
+                    <h4>Mobile Friendly</h4>
+                    <p>Study on the go with responsive design</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔒</span>
+                    <h4>Secure & Private</h4>
+                    <p>Your data is encrypted and protected</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">⚡</span>
+                    <h4>Lightning Fast</h4>
+                    <p>Instant responses from our AI agents</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🎯</span>
+                    <h4>Goal Tracking</h4>
+                    <p>Monitor your progress and achievements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Study Life?</h2>
+                <p>Join hundreds of polytechnic students already using StudyFlow</p>
+                <form id="signup-form" class="signup-form" novalidate>
+                    <input type="email" placeholder="Enter your email" aria-label="Email address" required>
+                    <button type="submit" class="btn btn-primary">Get Started Free</button>
+                </form>
+                <p class="cta-note">No credit card required • Free 14-day trial</p>
+                <div id="form-message" aria-live="polite" aria-atomic="true"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Agent Details -->
+    <div id="agent-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>StudyFlow</h4>
+                    <p>AI-powered study planning for polytechnic students</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#solution">Features</a></li>
+                        <li><a href="#cta">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 StudyFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

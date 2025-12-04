@@ -1,12 +1,23 @@
 {
   "name": "studyflow",
   "version": "1.0.0",
+  "description": "AI-powered study assistant for polytechnic students to boost productivity, understanding, and scheduling",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
+    "serve": "live-server --port=8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "study-planner",
+    "ai-assistant",
+    "polytechnic",
+    "productivity",
+    "scheduling"
+  ],
+  "author": "StudyFlow Team",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
