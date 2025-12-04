@@ -1,0 +1,7 @@
+{
+  "root": ".",
+  "port": 5500,
+  "default": "index.html",
+  "cors": true,
+  "browser": null
+}
